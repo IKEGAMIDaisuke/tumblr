@@ -55,7 +55,7 @@ ZENは、Tumblrで普通に日記を書く用途にこだわったテンプレ�
 | OGP Facebook URL | Facebook アカウント持ってる人はここに Facebook の URL を入力してください。ブログ記事が Fb にシェアされたときに「フィードを購読」ボタンを表示できるみたいです。[詳しくは Fb 開発ブログ参照。](https://developers.facebook.com/blog/post/2013/06/19/platform-updates--new-open-graph-tags-for-media-publishers-and-more/)これか先述の`OGP Facebook Page URL`の**どちらか**を入力してください。 |
 | Enable Syntax Highlight | シンタックスハイライトを有効にします。 |
 | Disqus Shortname | 記事にコメント欄を設置したい場合は、ここに Disqus Shortname を入力します。 |
-| Enable MathJax | 数式を LaTeX 風に記述するための [MathJax](http://docs.mathjax.org/en/latest/mathjax.html#what-is-mathjax) を有効にします。 |
+| Enable MathJax | 数式を LaTeX 風などで記述する [MathJax](http://docs.mathjax.org/en/latest/mathjax.html#what-is-mathjax) を有効にします。 |
 
 
 ## 3. ページを追加する
