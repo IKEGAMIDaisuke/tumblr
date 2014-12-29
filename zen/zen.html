@@ -34,6 +34,7 @@
   <meta name="if:Enable Plus1 Button" content="1" />
   <meta name="if:Enable Pocket Button" content="0" />
   <meta name="if:Enable Syntax Highlight" content="1" />
+  <meta name="if:Enable MathJax" content="0"/>
 
   <title>{block:PostSummary}{PostSummary} - {/block:PostSummary}{Title}</title>
 
@@ -516,6 +517,11 @@ src="{ReblogRootPortraitURL-16}" class="favicon"/> {ReblogRootName}</a>
       Hatena.Star.EntryLoader.headerTagAndClassName = ['div','meta-footer'];
     </script>
   {/block:IfEnableHatenaStar}
+
+  {block:IfEnableMathJax}
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+  {/block:IfEnableMathJax}
 
 </body>
 </html>
