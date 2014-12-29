@@ -57,6 +57,7 @@ ZENは、Tumblrで普通に日記を書く用途にこだわったテンプレ�
 | Disqus Shortname | 記事にコメント欄を設置したい場合は、ここに Disqus Shortname を入力します。 |
 | Add Search Box | Tumblr のタグ検索フォームを右上に追加します。 |
 | Width | 記事の横幅を入力します。デフォルトは 900 px です。 |
+| Enable MathJax | 数式を LaTeX 風などで記述する [MathJax](http://www.mathjax.org/) を有効にします。 |
 
 
 ## 3. ページを追加する
