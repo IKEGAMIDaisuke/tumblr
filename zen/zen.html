@@ -34,6 +34,7 @@
   <meta name="if:Enable Plus1 Button" content="1" />
   <meta name="if:Enable Pocket Button" content="0" />
   <meta name="if:Enable Syntax Highlight" content="1" />
+  <meta name="if:Add Search Box" content="0" />
 
   <title>{block:PostSummary}{PostSummary} - {/block:PostSummary}{Title}</title>
 
@@ -158,6 +159,14 @@
           <a href="{RSS}">RSS</a>
         </li>
         {/block:IfShowHeaderRSSLink}
+	{block:IfAddSearchBox}
+	<li>
+	  <form action="/search" method="get">
+	    <input type="text" name="q" value="{SearchQuery}"/>
+	    <input type="submit" value="Search"/>
+	  </form>
+	</li>
+	{/block:IfAddSearchBox}
       </ul>
     </nav>
 
