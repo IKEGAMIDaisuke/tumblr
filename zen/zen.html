@@ -22,6 +22,7 @@
   <meta name="text:Hatena Star Token" content="" />
   <meta name="text:Google Author" content="" />
   <meta name="text:Disqus Shortname" content="" />
+  <meta name="text:Width" content="900px" />
 
   <meta name="image:Title Logo" content="" />
 
@@ -112,6 +113,13 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
   </script>
+
+  <!-- override #container width in the original css -->
+  {block:IfWidth}
+    <style type="text/css">
+      #container { width : {text:Width}; }
+    </style>
+  {/block:IfWidth}
 
 </head>
 <body class="{block:IndexPage}page-index{/block:IndexPage}{block:PermalinkPage}page-permalink page-{PostID}{/block:PermalinkPage}">
