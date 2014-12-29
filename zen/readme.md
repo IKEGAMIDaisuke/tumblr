@@ -56,6 +56,7 @@ ZENは、Tumblrで普通に日記を書く用途にこだわったテンプレ�
 | Enable Syntax Highlight | シンタックスハイライトを有効にします。 |
 | Disqus Shortname | 記事にコメント欄を設置したい場合は、ここに Disqus Shortname を入力します。 |
 | Add Search Box | Tumblr のタグ検索フォームを右上に追加します。 |
+| Width | 記事の横幅を入力します。デフォルトは 900 px です。 |
 
 
 ## 3. ページを追加する
